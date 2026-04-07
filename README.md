@@ -126,7 +126,7 @@ https://github.com/user-attachments/assets/83f2357e-a46c-485c-a66f-85d386e99d39
 
 > **Note:** Password hashing can be done using `hashGenerator.js` in the server directory. All seeded users have the password "password".
 
-### 🗄️ Database Setup
+### Database Setup
 
 To make the app function, you must populate your Supabase database with the required tables and sample data.
 
@@ -135,7 +135,7 @@ To make the app function, you must populate your Supabase database with the requ
 3.  Copy and paste the schema and seed data below to create users, assets, forms, and events.
 
 <details>
-<summary><strong>👇 Click here to view the SQL Seed Script</strong></summary>
+<summary><strong>Click here to view the SQL Seed Script</strong></summary>
 
 ```sql
 -- 1. Users (every user has password "password". Use bycrypt.js to generate a hash for a different password)
