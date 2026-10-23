@@ -77,7 +77,7 @@ const ResearchAreasPage = () => {
     
         <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 border-b pb-4">Research Areas</h1>
         <p className="mt-4 text-sm sm:text-base text-gray-700">
-          DRDO spearheads transformative research across critical defense domains. Our current focus areas include hypersonic technologies, quantum computing applications for cybersecurity, artificial intelligence in unmanned systems, and next-generation armor materials.
+          Aditya Solutions spearheads transformative research across critical defense domains. Our current focus areas include hypersonic technologies, quantum computing applications for cybersecurity, artificial intelligence in unmanned systems, and next-generation armor materials.
         </p>
 
         <section className="mt-6 sm:mt-8">

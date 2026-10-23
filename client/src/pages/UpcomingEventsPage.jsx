@@ -122,7 +122,7 @@ const UpcomingEventsPage = () => {
       <div className="bg-white p-4 sm:p-8 rounded-lg shadow-md">
         <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 border-b pb-4">Events</h1>
         <p className="mt-4 text-sm sm:text-base text-gray-700">
-          DRDO convenes thought leadership through symposiums, technology demonstrations, and industry partnerships.
+          Aditya Solutions convenes thought leadership through symposiums, technology demonstrations, and industry partnerships.
         </p>
 
         {error && (

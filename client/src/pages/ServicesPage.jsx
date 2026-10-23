@@ -23,7 +23,7 @@ const ServicesPage = () => {
         <div className="mt-6 sm:mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-8">
           <ServiceCard 
             title="Employee Forms"
-            description="A centralized portal to find, fill, and submit all official DRDO forms, from leave requests to travel reimbursements."
+            description="A centralized portal to find, fill, and submit all official Aditya Solutions forms, from leave requests to travel reimbursements."
             link="/forms"
           />
           <ServiceCard 

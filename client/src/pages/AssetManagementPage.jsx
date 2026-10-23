@@ -143,7 +143,7 @@ const AssetManagementPage = () => {
                 name="email"
                 value={newAsset.email}
                 onChange={handleInputChange}
-                placeholder="employee.email@drdo.com"
+                placeholder="employee.email@adityasolutions.com"
                 className="w-full p-2 border rounded"
               />
             </div>
@@ -233,7 +233,7 @@ const AssetManagementPage = () => {
               type="email"
               value={assignEmail}
               onChange={(e) => setAssignEmail(e.target.value)}
-              placeholder="employee.email@drdo.com"
+              placeholder="employee.email@adityasolutions.com"
               required
               className="mt-4 w-full p-2 border rounded"
             />

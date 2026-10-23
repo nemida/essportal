@@ -36,7 +36,7 @@ const Footer = () => {
             
  
             <div className="mt-8 pt-8 border-t border-gray-700 text-center text-gray-400 text-sm">
-            <p>Copyright © {new Date().getFullYear()}, DRDO, Ministry of Defence, Government of India</p>
+            <p>Copyright © {new Date().getFullYear()}, Aditya Solutions</p>
             </div>
         </div>
     </footer>

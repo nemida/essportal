@@ -70,7 +70,7 @@ exports.chat = async (req, res) => {
   try {
     const context = await buildContext();
 
-    const systemPrompt = `You are an intelligent HR Assistant for DRDO's Employee Self-Service (ESS) Portal. 
+    const systemPrompt = `You are an intelligent HR Assistant for Aditya Solutions' Employee Self-Service (ESS) Portal. 
 You help employees with questions about:
 - Leave policies and form submissions
 - IT support and asset management
@@ -128,7 +128,7 @@ exports.chatStream = async (req, res) => {
   try {
     const context = await buildContext();
 
-    const systemPrompt = `You are an intelligent HR Assistant for DRDO's Employee Self-Service (ESS) Portal.
+    const systemPrompt = `You are an intelligent HR Assistant for Aditya Solutions' Employee Self-Service (ESS) Portal.
 CONTEXT:
 Forms: ${context.forms?.map(f => f.title).join(', ') || 'None'}
 Recent Announcements: ${context.announcements?.map(a => a.title).join(', ') || 'None'}

@@ -157,7 +157,7 @@ const HomePage = () => {
     
         <section className="flex-1 bg-white rounded shadow p-4 h-[280px] sm:h-[380px] overflow-hidden">
           <h2 className="text-lg font-semibold border-b pb-2 mb-3 text-[#2c3e50]">
-            Announcements
+            Announcement
           </h2>
           <div
             ref={announcementsRef}
@@ -209,7 +209,7 @@ const HomePage = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 items-center">
           <div>
             <h2 className="text-xl sm:text-2xl font-semibold text-[#2c3e50]">
-              About DRDO — Scientific Analysis Group
+              About Aditya Solutions — Scientific Analysis Group
             </h2>
             <p className="mt-3 text-gray-700">
               The Scientific Analysis Group advances cryptology, communications

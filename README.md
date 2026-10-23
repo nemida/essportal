@@ -836,11 +836,11 @@ To make the app function, you must populate your Supabase database with the requ
 ```sql
 -- 1. Users (every user has password "password". Use bycrypt.js to generate a hash for a different password)
 INSERT INTO users (user_id, email, password_hash, first_name, last_name, role, job_title, department) VALUES
-(1, 'admin@drdo.gov.in', '$2b$10$pqVbOXDc4C3z7QtRbVMmc.PiulNIUs4R2ZEenqMOZkCTFgAX8YNCK', 'Admin', 'User', 'admin', 'System Administrator', 'IT Department'),
-(2, 'john.doe@drdo.gov.in', '$2b$10$pqVbOXDc4C3z7QtRbVMmc.PiulNIUs4R2ZEenqMOZkCTFgAX8YNCK', 'John', 'Doe', 'employee', 'Senior Scientist', 'Research & Development'),
-(3, 'priya.sharma@drdo.gov.in', '$2b$10$pqVbOXDc4C3z7QtRbVMmc.PiulNIUs4R2ZEenqMOZkCTFgAX8YNCK', 'Priya', 'Sharma', 'employee', 'Research Engineer', 'Electronics Division'),
-(4, 'amit.kumar@drdo.gov.in', '$2b$10$pqVbOXDc4C3z7QtRbVMmc.PiulNIUs4R2ZEenqMOZkCTFgAX8YNCK', 'Amit', 'Kumar', 'employee', 'Project Lead', 'Defence Systems'),
-(5, 'sneha.patel@drdo.gov.in', '$2b$10$pqVbOXDc4C3z7QtRbVMmc.PiulNIUs4R2ZEenqMOZkCTFgAX8YNCK', 'Sneha', 'Patel', 'employee', 'Software Developer', 'IT Department');
+(1, 'admin@adityasolutions.com', '$2b$10$pqVbOXDc4C3z7QtRbVMmc.PiulNIUs4R2ZEenqMOZkCTFgAX8YNCK', 'Admin', 'User', 'admin', 'System Administrator', 'IT Department'),
+(2, 'john.doe@adityasolutions.com', '$2b$10$pqVbOXDc4C3z7QtRbVMmc.PiulNIUs4R2ZEenqMOZkCTFgAX8YNCK', 'John', 'Doe', 'employee', 'Senior Scientist', 'Research & Development'),
+(3, 'priya.sharma@adityasolutions.com', '$2b$10$pqVbOXDc4C3z7QtRbVMmc.PiulNIUs4R2ZEenqMOZkCTFgAX8YNCK', 'Priya', 'Sharma', 'employee', 'Research Engineer', 'Electronics Division'),
+(4, 'amit.kumar@adityasolutions.com', '$2b$10$pqVbOXDc4C3z7QtRbVMmc.PiulNIUs4R2ZEenqMOZkCTFgAX8YNCK', 'Amit', 'Kumar', 'employee', 'Project Lead', 'Defence Systems'),
+(5, 'sneha.patel@adityasolutions.com', '$2b$10$pqVbOXDc4C3z7QtRbVMmc.PiulNIUs4R2ZEenqMOZkCTFgAX8YNCK', 'Sneha', 'Patel', 'employee', 'Software Developer', 'IT Department');
 
 -- 2. Forms Configuration
 INSERT INTO forms (form_id, title, description, category, version, last_updated, search_tags, badge_text, badge_color, component_name) VALUES
@@ -872,7 +872,7 @@ INSERT INTO projects (project_name, description, status) VALUES
 -- 5. Events
 INSERT INTO events (day, month, title, description, event_date) VALUES
 ('15', 'Feb', 'Annual Science Day', 'Celebration of National Science Day with exhibitions and lectures', '2026-02-15'),
-('26', 'Jan', 'Republic Day Celebration', 'Annual Republic Day celebration at DRDO headquarters', '2026-01-26'),
+('26', 'Jan', 'Republic Day Celebration', 'Annual Republic Day celebration at Aditya Solutions headquarters', '2026-01-26'),
 ('10', 'Mar', 'Tech Innovation Summit', 'Annual technology innovation summit showcasing new developments', '2026-03-10'),
 ('05', 'Apr', 'Cybersecurity Workshop', 'Workshop on latest cybersecurity threats and countermeasures', '2026-04-05'),
 ('20', 'Feb', 'Research Paper Presentation', 'Internal research paper presentation by scientists', '2026-02-20');
@@ -880,7 +880,7 @@ INSERT INTO events (day, month, title, description, event_date) VALUES
 -- 6. Publications
 INSERT INTO publications (type, title, meta, description, pdf_link) VALUES
 ('Research Paper', 'Advances in Radar Signal Processing', 'Dr. A. Kumar et al. | 2025', 'A comprehensive study on modern radar signal processing techniques and their applications in defence systems.', '/publications/radar-signal-processing.pdf'),
-('Technical Report', 'Autonomous Systems Integration Framework', 'Defence Research Team | 2025', 'Framework for integrating autonomous systems in military applications.', '/publications/autonomous-framework.pdf'),
+('Technical Report', 'Autonomous Systems Integration Framework', 'Aditya Solutions Research Team | 2025', 'Framework for integrating autonomous systems in military applications.', '/publications/autonomous-framework.pdf'),
 ('Journal Article', 'Machine Learning in Defence Applications', 'Dr. P. Sharma | 2024', 'Survey of machine learning techniques applicable to defence sector.', '/publications/ml-defence.pdf'),
 ('White Paper', 'Cybersecurity Best Practices', 'IT Security Division | 2025', 'Guidelines and best practices for maintaining cybersecurity in defence organizations.', '/publications/cybersecurity-guide.pdf');
 

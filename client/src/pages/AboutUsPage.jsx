@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import drdoHeadquarters from '../assets/drdo.png';
+import asHeadquarters from '../assets/drdo.png';
 import directorImg from '../assets/director.jpg';
 import sagDirectorImg from '../assets/sagdirector.png';
 
@@ -10,7 +10,7 @@ const AboutUsPage = () => {
     <div className="max-w-7xl mx-auto py-6 sm:py-12 px-4 sm:px-6 lg:px-8">
       <section className="bg-white p-4 sm:p-8 rounded-lg shadow-md">
         <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 border-b pb-4">About Us</h1>
-        <p className="mt-4 text-sm sm:text-base text-gray-700">The Defence Research and Development Organisation (DRDO) is India's premier agency dedicated to military research and development. Established in 1958, we operate at the forefront of cutting-edge defense technologies to empower our armed forces with indigenously developed systems.</p>
+        <p className="mt-4 text-sm sm:text-base text-gray-700">Aditya Solutions (AS) is India's premier agency dedicated to military research and development. Established in 1958, we operate at the forefront of cutting-edge defense technologies to empower our armed forces with indigenously developed systems.</p>
         
         <div className="mt-6 sm:mt-8 grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 items-center">
           <div className="text-gray-700 space-y-4 sm:space-y-6">
@@ -20,7 +20,7 @@ const AboutUsPage = () => {
             </div>
             <div>
               <h2 className="text-xl sm:text-2xl font-semibold">Our History</h2>
-              <p>Established in 1958, DRDO is India's premier agency for military research and development. With over 50 laboratories across India, we've been at the forefront of defense technology development.</p>
+              <p>Established in 1958, Aditya Solutions is India's premier agency for military research and development. With over 50 laboratories across India, we've been at the forefront of defense technology development.</p>
             </div>
             <div>
               <h2 className="text-xl sm:text-2xl font-semibold">Key Achievements</h2>
@@ -33,7 +33,7 @@ const AboutUsPage = () => {
             </div>
           </div>
           <div>
-            <img src={drdoHeadquarters} alt="DRDO Headquarters" className="rounded-lg shadow-lg w-full h-auto" />
+            <img src={asHeadquarters} alt="Aditya Solutions Headquarters" className="rounded-lg shadow-lg w-full h-auto" />
           </div>
         </div>
       </section>
@@ -44,9 +44,9 @@ const AboutUsPage = () => {
         <div className="mt-6 sm:mt-8 grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-10 justify-items-center">
 
           <div className="text-center">
-            <img src={directorImg} alt="DRDO Director" className="w-32 h-32 sm:w-48 sm:h-48 mx-auto rounded-full object-cover shadow-md" />
+            <img src={directorImg} alt="Aditya Solutions Director" className="w-32 h-32 sm:w-48 sm:h-48 mx-auto rounded-full object-cover shadow-md" />
             <h3 className="mt-4 text-xl font-semibold">Dr. Samir V. Kamat</h3>
-            <p className="text-gray-600">Chairman, DRDO</p>
+            <p className="text-gray-600">Chairman, Aditya Solutions</p>
           </div>
 
           <div className="text-center">
